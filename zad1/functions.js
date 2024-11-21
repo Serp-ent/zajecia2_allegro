@@ -2,6 +2,6 @@ function isOdd(x) {
   return x % 2 == 1;
 }
 
-const isEven = (x) => x % 2 == 0;
+const isEven = (x) => !isOdd(x);
 
 console.log(isEven(1));
